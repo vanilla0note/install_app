@@ -1,0 +1,19 @@
+﻿#bread{
+    width:900px;
+    height:40px;
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-size:18px;
+    line-height:40px;
+    font-weight:normal;
+
+    /*background-color:#0000FF;*/
+}
+
+#space{
+    width:900px;
+    height:20px;
+
+    background-color:#FFFFFF;
+    float:left;
+}

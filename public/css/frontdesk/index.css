@@ -1,0 +1,160 @@
+﻿label{font-size: 24px;font-family: Microsoft JhengHei,msjhbd}
+a{color:#666;text-decoration:none;}
+tt{color:#333;font-size: 17px;font-weight:500;text-decoration:none;}
+
+
+@font-face {
+    font-family: 'msjhbd';
+    src: url('../font/msjhbd.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+hr {
+    height: 1px;
+    border: none;
+    border-top: 1px dashed #848784;
+
+    margin:30px 0 20px 0;
+}
+
+
+input{
+    font-size: 20px;
+    font-family: Microsoft JhengHei,msjhbd;
+    padding: 5px;
+}
+input[type="text"]{
+    width:200px;
+    font-size:19px;
+}
+#content_profile_from > [type="text"] {
+    width:340px;
+
+}
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+}
+textarea{width: 435px; height:80px;font-size:19px;font-weight:normal;font-family:Microsoft JhengHei,msjhbd;}
+
+
+body{background-color: #FFFFFF;}
+
+#caption{
+    width: 980px;
+    height: 150px;
+
+    margin:0 auto;
+
+    /*background-color: #FF9900;*/
+}
+#caption_header01 {
+    width: 980px;
+    height: 70px;
+
+    color: #333;
+    text-align: left;
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 20px;
+    font-weight:bold;
+    margin: 0 auto;
+
+    line-height:60px;
+
+    /*background-color: #0000FF;*/
+}
+#caption_header02 {
+    width: 500px;
+    height: 50px;
+
+    color: #333;
+    text-align: left;
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 16px;
+    font-weight:500;
+    margin: 10px auto 0 ;
+
+    line-height:30px;
+
+    /*background-color: #FF00FF;*/
+}
+
+/***************************/
+
+#content {
+    width: 1000px;
+    height: 760px;
+
+    margin: 0 auto;
+
+    /*background-color: #0000FF;*/
+}
+
+/*///////////////////////////////*/
+
+
+fieldset{padding:5px 30px ; border: solid 2px #999;}
+#content_profile,#content_problem,#content_file{
+    width: 750px;
+    /*height: 450px;*/
+
+    color: #333;
+    text-align: left;
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 18px;
+    font-weight:bold;
+    margin: 0 auto 20px;
+
+    line-height:60px;
+
+    /*background-color: #FF00FF;*/
+}
+#content_profile_from {
+    width:680px;
+    height:410px;
+
+    text-align:left;
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-size:18px;
+    line-height:50px;
+    font-weight:normal;
+
+    /*background-color:#f7e2c3;*/
+
+    margin:0 auto;
+
+}
+#content_profile > div { float: left; }
+#content_problem_fieldset { height:190px; }
+#content_problem  > div { float: left; }
+#content_file_fieldset { height:250px; }
+
+
+/*///////////////////////////////*/
+
+
+.form_con{
+    width:135px;
+    height:30px;
+    margin:10px auto;
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-size:20px;
+    font-weight:bold;
+    letter-spacing: 5px;
+
+    /*background-color:#00FF00;*/
+}
+
+
+
+#dialog {
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.ui-dialog .ui-dialog-title {font-family: Microsoft JhengHei,msjhbd;letter-spacing: 2px;font-weight:bold;}
+.ui-dialog .ui-dialog-buttonpane button {font-family: Microsoft JhengHei,msjhbd;}

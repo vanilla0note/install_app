@@ -1,0 +1,111 @@
+﻿@font-face {
+  font-family:'msjhbd';
+  src: url('fonts/msjhbd.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+input[type="text"],[type="password"]{
+    font-size:18px;
+    font-family:Microsoft JhengHei;
+    padding:5px;
+
+    width:240px;
+}
+input[type="submit"]{
+    width:100px;
+    height:50px;
+
+    font-size:18px;
+    font-family:Microsoft JhengHei;
+}
+
+
+#page-main {
+    width:520px;
+    height:500px;
+
+    margin:170px auto;
+
+    /*background-color:#FF0000;*/
+}
+
+#login_title {
+    width: 510px;
+    height: 90px;
+    margin: 0 auto;
+    float: left;
+
+    border: 2px solid;
+    border-color: #ccc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 19px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    line-height: 90px;
+    text-align:center;
+    
+    padding: 0 0 0 5px;
+    background-color: #FFFFFF;
+
+    /*
+    -moz-box-shadow: 4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+    -webkit-box-shadow: 4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+    box-shadow: 4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+        */
+}
+    fieldset{height: 40px;line-height: 40px;font-size: 17px;border: 1px solid #eee ;}
+
+#login_content{
+    width: 500px;
+    height:220px;
+        
+    margin:0 auto;
+    float:left;
+
+    border:2px solid;
+    border-color:#ccc;
+    border-top-left-radius  : 0px;
+    border-top-right-radius : 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius : 5px;
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-size:20px;
+    font-weight:normal;
+    letter-spacing: 20px;
+    line-height:0px;
+    padding:25px 0 0 15px;
+
+    margin-top:-5px;
+    background-color:#FFFFFF;
+    /*
+    -moz-box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+    -webkit-box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+    box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+        */
+}
+.login_con1{
+    width:400px;
+    height:60px;
+    margin:10px auto 5px auto;
+
+    /*background-color:#00FF00;*/
+}
+.login_con2{
+    width:200px;
+    height:50px;
+    margin:10px auto;
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-size:20px;
+    font-weight:normal;
+    letter-spacing: 5px;
+
+    /*background-color:#00FF00;*/
+}
